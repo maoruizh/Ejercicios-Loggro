@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90646527-27b2-4420-88d5-c1aa94fb9578" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1j0jo2PYUIZbHjjOxcveWzc5ujo" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="FacturaDeCompraSeleniumTest.crearFacturaDeCompra" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="practicas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gonzo.loggro.abastecimiento.facturacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gonzo.loggro.abastecimiento.facturacion" />
+      <option name="MAIN_CLASS_NAME" value="com.gonzo.loggro.abastecimiento.facturacion.FacturaDeCompraSeleniumTest" />
+      <option name="METHOD_NAME" value="crearFacturaDeCompra" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.FacturaDeCompraSeleniumTest.crearFacturaDeCompra" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90646527-27b2-4420-88d5-c1aa94fb9578" name="Default Changelist" comment="" />
+      <created>1602948074193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602948074193</updated>
+    </task>
+    <servers />
+  </component>
+</project>
