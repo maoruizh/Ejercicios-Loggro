@@ -20,7 +20,7 @@ public class BaseSeleniumTest {
     
     @BeforeMethod
     public void init(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\jruizh\\OneDrive - PSL S.A.S\\Personales\\Programacion\\practicas\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ASUS\\Documents\\GitHub\\Ejercicios-Loggro\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();

@@ -1,27 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="90646527-27b2-4420-88d5-c1aa94fb9578" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="90646527-27b2-4420-88d5-c1aa94fb9578" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gonzo/loggro/abastecimiento/facturacion/FacturaDeCompraSeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gonzo/loggro/abastecimiento/facturacion/FacturaDeCompraSeleniumPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gonzo/loggro/testbase/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gonzo/loggro/testbase/BaseSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gonzo/loggro/testbase/SeleniumUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gonzo/loggro/testbase/SeleniumUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/maoruiz/loggro/ventapos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maoruiz/loggro/ventapos.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1j0jo2PYUIZbHjjOxcveWzc5ujo" />
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Documents/GitHub/Ejercicios-Loggro&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Documents\GitHub\Ejercicios-Loggro" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration name="ventapos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maoruiz.loggro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maoruiz.loggro" />
+      <option name="MAIN_CLASS_NAME" value="com.maoruiz.loggro.ventapos" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FacturaDeCompraSeleniumTest.crearFacturaDeCompra" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="practicas" />
       <extension name="coverage">
@@ -42,10 +76,12 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ventapos" />
         <item itemvalue="TestNG.FacturaDeCompraSeleniumTest.crearFacturaDeCompra" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -58,5 +94,16 @@
       <updated>1602948074193</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

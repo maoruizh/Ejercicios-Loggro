@@ -15,7 +15,7 @@ public class ventapos {
         WebDriver webdriver;
         WebDriverWait webDriverWait;
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\jruizh\\OneDrive - PSL S.A.S\\Personales\\Programacion\\practicas\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ASUS\\Documents\\GitHub\\Ejercicios-Loggro\\chromedriver.exe");
 
         // Initialize browser
         WebDriver driver = new ChromeDriver();
@@ -53,20 +53,24 @@ public class ventapos {
         //Localizar el boton BUscar por medio de su id.
         WebElement buscar = driver.findElement(By.id("ERPSaaS.distribucion.pedidos.VentaMostradorTabFrame_pedidoTable_personaNaturalJuridicaId_ZoomModal_ZoomPanel_gridToolbarSearchFilters-btnInnerEl"));
 
-        //Hacer clic en el botÃ³n "Buscar"
+        //Hacer clic en el botÃ³n "Seleccionar"
         buscar.click();
 
+        //Hacer clic en el botÃ³n "Seleccionar"
+        By btnSelec = By.id("ext-gen1719");
+        driver.findElement(btnSelec).click();
+
         //Localizar el cliente por medio de su id.
-        WebElement cliente = driver.findElements(By.className("x-grid-header-row")).get(1);
+        //WebElement cliente = driver.findElements(By.className("x-grid-header-row")).get(1);
 
         //Hacer clic en el cliente
-        cliente.click();
+       // cliente.click();
 
         //Localizar el boton Seleccionar por medio de su id.
-        WebElement Seleccionar = driver.findElement(By.id("jsbButton-1285-btnInnerEl"));
+       // WebElement Seleccionar = driver.findElement(By.id("jsbButton-1285-btnInnerEl"));
 
         //Hacer clic en el botÃ³n "Seleccionar"
-        Seleccionar.click();
+       // Seleccionar.click();
 
 /*
     //Click a Mas opciones
