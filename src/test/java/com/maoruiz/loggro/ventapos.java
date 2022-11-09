@@ -57,9 +57,10 @@ public class ventapos {
         buscar.click();
 
         //Hacer clic en el botÃ³n "Seleccionar"
-        By btnSelec = By.id("ext-gen1719");
-        driver.findElement(btnSelec).click();
-
+        By btnSelec0 = By.xpath("//td[@class='j-b-tableCellZoomMT x-grid-cell x-grid-cell-gridcolumn-1275   x-grid-cell-last']");
+        driver.findElement(btnSelec0).click();
+        By btnSelec1 = By.id("jsbButton-1284");
+        driver.findElement(btnSelec1).click();
         //Localizar el cliente por medio de su id.
         //WebElement cliente = driver.findElements(By.className("x-grid-header-row")).get(1);
 
